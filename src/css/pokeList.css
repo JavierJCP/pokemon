@@ -1,0 +1,22 @@
+p {
+  margin: 5px;
+  padding: 5px;
+  color: blueviolet;
+}
+
+.boton-pokemon{
+  margin: 10px;
+  padding: 5px 15px;
+  border: 1px solid white;
+  
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #FFC500, #ffffff);
+  cursor: pointer;
+}
+.lista-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+}

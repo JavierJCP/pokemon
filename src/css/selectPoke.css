@@ -1,0 +1,22 @@
+.card{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+}
+
+
+.imagen-pokemon{
+  background-color: rgb(149, 236, 244);
+  border-radius: 50%;
+  border: 3px solid rgb(234, 131, 131);
+}
+
+.lista-habilidades{
+  padding-left: 15px;
+}

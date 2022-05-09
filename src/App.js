@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+//coponents
+import SelectedPoke from './components/SelectedPoke'
+import Pokelist from './components/PokeList';
+//context
+import PokeState from './context/PokeState'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <PokeState>
+     <div className='contenedor'>
+     <Pokelist/>
+     <SelectedPoke/>
+     </div>
+   </PokeState>   
   );
 }
 
